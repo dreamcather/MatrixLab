@@ -1,0 +1,52 @@
+﻿Построение начато 04.11.2016 17:36:14.
+     1>Проект "D:\Программирование\2 курс\MatrixVol2\MatrixVol2\MatrixVol2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\С\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(355): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(369): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(461): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(475): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\TMatrix.h(50): warning C4172: возвращение адреса локальной или временной переменной
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\TMatrix.h(46): при компиляции функции-члена "TVector<Type> &TMatrix<MType>::operator [](int) const" класса шаблон
+                 with
+                 [
+                     Type=int,
+                     MType=int
+                 ]
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров функции шаблон при компиляции "TVector<Type> &TMatrix<MType>::operator [](int) const"
+                 with
+                 [
+                     Type=int,
+                     MType=int
+                 ]
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\GlobalO.h(6): см. ссылку на создание экземпляров класса шаблон при компиляции "TMatrix<MType>"
+                 with
+                 [
+                     MType=int
+                 ]
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\TVector.h(44): warning C4172: возвращение адреса локальной или временной переменной
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\TVector.h(41): при компиляции функции-члена "int &TVector<Type>::operator [](int) const" класса шаблон
+                 with
+                 [
+                     Type=int
+                 ]
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров функции шаблон при компиляции "int &TVector<Type>::operator [](int) const"
+                 with
+                 [
+                     Type=int
+                 ]
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров класса шаблон при компиляции "TVector<Type>"
+                 with
+                 [
+                     Type=int
+                 ]
+       Link:
+         D:\С\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Программирование\2 курс\MatrixVol2\Debug\MatrixVol2.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\MatrixVol2.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Программирование\2 курс\MatrixVol2\Debug\MatrixVol2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         MatrixVol2.vcxproj -> D:\Программирование\2 курс\MatrixVol2\Debug\MatrixVol2.exe
+     1>Построение проекта "D:\Программирование\2 курс\MatrixVol2\MatrixVol2\MatrixVol2.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.73
