@@ -1,12 +1,12 @@
-﻿Построение начато 04.11.2016 17:36:14.
+﻿Построение начато 04.11.2016 17:57:32.
      1>Проект "D:\Программирование\2 курс\MatrixVol2\MatrixVol2\MatrixVol2.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          D:\С\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
          MyForm.cpp
      1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(355): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
      1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(369): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
-     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(461): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
-     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(475): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(462): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(476): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
      1>d:\программирование\2 курс\matrixvol2\matrixvol2\TMatrix.h(50): warning C4172: возвращение адреса локальной или временной переменной
                  d:\программирование\2 курс\matrixvol2\matrixvol2\TMatrix.h(46): при компиляции функции-члена "TVector<Type> &TMatrix<MType>::operator [](int) const" класса шаблон
                  with
@@ -14,7 +14,7 @@
                      Type=int,
                      MType=int
                  ]
-                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров функции шаблон при компиляции "TVector<Type> &TMatrix<MType>::operator [](int) const"
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(421): см. ссылку на создание экземпляров функции шаблон при компиляции "TVector<Type> &TMatrix<MType>::operator [](int) const"
                  with
                  [
                      Type=int,
@@ -31,12 +31,12 @@
                  [
                      Type=int
                  ]
-                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров функции шаблон при компиляции "int &TVector<Type>::operator [](int) const"
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(421): см. ссылку на создание экземпляров функции шаблон при компиляции "int &TVector<Type>::operator [](int) const"
                  with
                  [
                      Type=int
                  ]
-                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(419): см. ссылку на создание экземпляров класса шаблон при компиляции "TVector<Type>"
+                 d:\программирование\2 курс\matrixvol2\matrixvol2\MyForm.h(421): см. ссылку на создание экземпляров класса шаблон при компиляции "TVector<Type>"
                  with
                  [
                      Type=int
@@ -49,4 +49,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.73
+Затраченное время: 00:00:02.76

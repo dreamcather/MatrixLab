@@ -386,6 +386,8 @@ private: System::Void перестроитьТаблицыToolStripMenuItem_Click(System::Object^ 
 		 {
 			 MatrixA->Hide();
 			 MatrixB->Hide();
+			 работаСМатрицамиToolStripMenuItem->Visible="False";
+			 
 			 /*При построение новых строк и столбцов, устанавливает свойство ReadOnly по умолчанию*/
 			 /*for(int i=0;i<SizeM;i++)
 			 {
